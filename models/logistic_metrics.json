@@ -1,0 +1,22 @@
+{
+    "model": "Logistic Regression",
+    "accuracy": 0.6917,
+    "precision": 0.3111,
+    "recall": 0.7,
+    "f1_score": 0.4308,
+    "roc_auc": 0.7812,
+    "pr_auc": 0.4574,
+    "top_10_percent_risk_capture": 0.3167,
+    "confusion_matrix": [
+        [
+            207,
+            93
+        ],
+        [
+            18,
+            42
+        ]
+    ],
+    "training_records": 1440,
+    "testing_records": 360
+}

@@ -1,0 +1,21 @@
+{
+    "project": "LineGuard AI",
+    "selected_model": "Logistic Regression",
+    "selection_reason": "Higher recall, F1-score, ROC-AUC, PR-AUC and top-risk failure capture than XGBoost.",
+    "training_records": 1800,
+    "feature_count": 14,
+    "target": "failure_within_30_days",
+    "score_description": "Relative model-derived risk score from 0 to 100. It is not a calibrated real-world failure probability.",
+    "risk_thresholds": {
+        "Low": "0\u201329.9",
+        "Medium": "30\u201354.9",
+        "High": "55\u201374.9",
+        "Critical": "75\u2013100"
+    },
+    "risk_distribution": {
+        "Medium": 662,
+        "Low": 584,
+        "High": 376,
+        "Critical": 178
+    }
+}

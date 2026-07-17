@@ -1,0 +1,24 @@
+{
+    "model": "XGBoost Classifier",
+    "threshold": 0.5,
+    "accuracy": 0.7833,
+    "precision": 0.3676,
+    "recall": 0.4167,
+    "f1_score": 0.3906,
+    "roc_auc": 0.7152,
+    "pr_auc": 0.4001,
+    "top_10_percent_risk_capture": 0.2667,
+    "top_20_percent_risk_capture": 0.4333,
+    "confusion_matrix": [
+        [
+            257,
+            43
+        ],
+        [
+            35,
+            25
+        ]
+    ],
+    "training_records": 1440,
+    "testing_records": 360
+}
